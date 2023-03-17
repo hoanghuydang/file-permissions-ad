@@ -28,13 +28,35 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JAlZ4HN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+  <p>
+<img src="https://i.imgur.com/5qGEw01.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/XXap3QV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/30CaAbb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/9o9gevq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/8hxh1Bw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+
 </h2>STEP 1: CREATE SOME SAMPLE FILE SHARES WITH VARIOUS PERMISSIONS</h2>
 
   - Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin)
-  - Connect/log into Client-1 as a normal user (mydomain\<someuser>)
+  - Connect/log into Client-1 as a normal user (mydomain\buju.mabe)
   - On DC-1, on the C:\ drive, create 4 folders: “read-access”, “write-access”, “no-access”, “accounting”
   - Set the following permissions (share the folder) for the “Domain Users” group:
   - Folder: “read-access”, Group: “Domain Users”, Permission: “Read”
