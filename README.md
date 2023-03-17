@@ -101,7 +101,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - On Client-1, as  buju.mabe, try to access the accountants folder. It should fail.
   - Log out of Client-1 as buju.mabe
   - On DC-1, make buju.mabe a member of the “ACCOUNTANTS”  Security Group
-  - Sign back into Client-1 as buju.mabe and try to access the “accounting” share in \\DC-1\ - Does it work now?
+  - Sign back into Client-1 as buju.mabe and try to access the “accounting” share in \\DC-1\ 
 
 </p>
 <br />
