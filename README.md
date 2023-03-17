@@ -67,13 +67,13 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BMw00wL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </h2>STEP 2: ATTEMPT TO ACCESS FILE SHARES AS A NORMAL USER</h2>
 
   - On Client-1, navigate to the shared folder (start, run, \\dc-1)
-  - Try to access the folders you just created. Which folders can you access? Which folders can you create stuff in? Does it make sense?
+  - Try to access the folders you just created. Settings should make sense according to each configuration.
 </p>
 <br />
 
