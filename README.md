@@ -78,7 +78,19 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <br />
 
 <p>
-<img src="https://i.imgur.com/YKpMsef.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uX9brGA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/H7Ub2XV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/mtFmVcC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  <p>
+<img src="https://i.imgur.com/Qkz8q5D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 </h2>STEP 3: CREATE AN "ACCOUNTANTS" SECURITY GROUP, ASSIGN PERMISSIONS, AND TEST ACCESS</h2>
@@ -86,10 +98,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   - Go back to DC-1, in Active Directory, create a security group called “ACCOUNTANTS”
   - On the “accounting” folder you created earlier, set the following permissions:
   - Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write
-  - On Client-1, as  "someuser", try to access the accountants folder. It should fail.
-  - Log out of Client-1 as  "someuser"
-  - On DC-1, make "someuser" a member of the “ACCOUNTANTS”  Security Group
-  - Sign back into Client-1 as "someuser" and try to access the “accounting” share in \\DC-1\ - Does it work now?
+  - On Client-1, as  buju.mabe, try to access the accountants folder. It should fail.
+  - Log out of Client-1 as buju.mabe
+  - On DC-1, make buju.mabe a member of the “ACCOUNTANTS”  Security Group
+  - Sign back into Client-1 as buju.mabe and try to access the “accounting” share in \\DC-1\ - Does it work now?
 
 </p>
 <br />
