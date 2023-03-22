@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/Ua7udoS.png" alt="Traffic Examination"/>
+<img src="https://i.imgur.com/pU5A58S.png" alt="Traffic Examination"/>
 </p>
 
 <h1>File Permissions and Security Groups in  Azure Active Directory</h1>
